@@ -21,14 +21,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from haydn device
 $(call inherit-product, device/xiaomi/haydn/device.mk)
 
-# Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common dotOS stuff.
+$(call inherit-product, vendor/dot/config/common.mk)
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Device identifier
-PRODUCT_NAME := aosp_haydn
+PRODUCT_NAME := dot_haydn
 PRODUCT_DEVICE := haydn
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi K40 Pro
