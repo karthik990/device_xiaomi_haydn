@@ -250,10 +250,6 @@ ro.nfc.port=I2C
 ro.vendor.nfc.repair=1
 ro.vendor.se.type=eSE,HCE,UICC
 
-# Perf
-ro.vendor.extension_library=libqti-perfd-client.so
-ro.vendor.perf.scroll_opt=0
-
 # Priv-app permissions
 ro.control_privapp_permissions=enforce
 
