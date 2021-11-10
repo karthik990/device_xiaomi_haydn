@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_haydn.mk
+    $(LOCAL_DIR)/dot_haydn.mk
 
 COMMON_LUNCH_CHOICES := \
     dot_haydn-user \
