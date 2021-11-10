@@ -24,6 +24,8 @@ $(call inherit-product, device/xiaomi/haydn/device.mk)
 # Inherit some common dotOS stuff.
 $(call inherit-product, vendor/dot/config/common.mk)
 
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
