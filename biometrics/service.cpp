@@ -20,7 +20,7 @@
 #include <hidl/HidlSupport.h>
 #include <hidl/HidlTransportSupport.h>
 #include <android/hardware/biometrics/fingerprint/2.3/IBiometricsFingerprint.h>
-#include <android/hardware/biometrics/fingerprint/2.3/types.h>
+#include <android/hardware/biometrics/fingerprint/2.2/types.h>
 #include <vendor/xiaomi/hardware/fingerprintextension/1.0/IXiaomiFingerprint.h>
 #include "BiometricsFingerprint.h"
 
