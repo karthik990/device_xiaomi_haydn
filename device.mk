@@ -131,7 +131,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     libbthost_if \
-    BluetoothQti
+    BluetoothQti \
+    libldacBT_bco.so
 
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.1.vendor \
