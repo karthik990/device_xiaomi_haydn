@@ -21,6 +21,7 @@ DEVICE_PATH := device/xiaomi/haydn
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 BUILD_BROKEN_ENFORCE_SYSPROP_OWNER := true
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
 
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
@@ -134,8 +135,7 @@ TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 # HIDL
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/vintf/compatibility_matrix.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
-    $(DEVICE_PATH)/vintf/framework_compatibility_matrix.xml \
-    vendor/aosp/config/device_framework_matrix.xml
+    $(DEVICE_PATH)/vintf/framework_compatibility_matrix.xml
 
 ODM_MANIFEST_SKUS += nfc
 ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/vintf/manifest_nfc.xml
